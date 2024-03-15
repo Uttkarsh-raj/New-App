@@ -3,6 +3,12 @@
 <h3 align ="center">Problem Statement </h3>
 Develop a News App with Firebase Integration that provides a seamless user experience. The app should feature a visually appealing UI with the ability to switch between grid view and list view for news articles. Use a state management tool like Provider, Bloc, or Riverpod to manage the app's state effectively. Additionally, ensure that the app can store some news data locally to allow users to view news articles even when there is no internet connection or network failure.
 <br><br>
+
+## Demo
+<br>
+
+https://github.com/Uttkarsh-raj/News-App/assets/106571927/b0d9f1d9-1f93-4d76-bdd2-26dc47554a49
+
 <!--TABLE OF CONTENTS-->
 <details>
   <summary>Table of Contents</summary>
@@ -112,7 +118,7 @@ flutter pub get
 3. **Offline Support**: View previously accessed news articles even without an internet connection.
 4. **State Management**: Utilizes a state management tool to efficiently manage app state and data flow.
 5. **Firebase Integration**: Utilizes Firebase for user authentication and possibly other features like real-time updates or analytics.
-6. **API Integration** : Utilizes a API's to efficiently get data from the server. API used https://rapidapi.com/connexun-srl-connexun-srl-default/api/news67 .
+6. **API Integration** : Utilizes a API's to efficiently get data from the server. API used [News API](https://newsapi.org/) .
 
 This News App provides a seamless news browsing experience, ensuring users can access news articles both online and offline, while also offering a personalized experience through user authentication.<br><br>
 ## Screenshots:
@@ -126,12 +132,10 @@ This News App provides a seamless news browsing experience, ensuring users can a
 
 
 ### Other Screens: 
-<img width="320" src="https://github.com/Uttkarsh-raj/New-App/assets/106571927/3812825a-0bc5-423c-9ceb-3294ab819c94"></img>
-<img width="320" src="https://github.com/Uttkarsh-raj/New-App/assets/106571927/2addc424-1dd4-42ad-a946-02483f5cabd9"></img>
-<img width="320" src="https://github.com/Uttkarsh-raj/New-App/assets/106571927/2d4f9a7b-aed0-4850-a005-d17ce79aebd8"></img>
+<img width="320" src="https://github.com/Uttkarsh-raj/News-App/assets/106571927/0aad6853-732e-472d-9fad-f3bae28e684e"></img>
+<img width="320" src="https://github.com/Uttkarsh-raj/News-App/assets/106571927/97514f3e-14a6-4544-9015-50e12cde40d4"></img>
+<img width="320" src="https://github.com/Uttkarsh-raj/News-App/assets/106571927/ef88eac2-c04f-4bc5-8181-ab651d319aca"></img>
 <img width="320" src="https://github.com/Uttkarsh-raj/New-App/assets/106571927/68a40fd6-1b6d-4661-8dab-61f62b447d5f"></img>
-
-
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
