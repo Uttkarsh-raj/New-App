@@ -34,22 +34,23 @@ class News {
 
   static News fromJson(dynamic map) {
     return News(
-      title: map['Title'] != null ? map['Title'] as String : null,
-      body: map['Description'] != null ? map['Description'] as String : null,
-      url: map['Url'] != null ? map['Url'] as String : null,
-      image: map['Image'] != null ? map['Image'] as String : null,
-      source: map['Source'] != null ? map['Source'] as String : null,
+      title: map['title'] != null ? map['title'] as String : null,
+      body: map['description'] != null ? map['description'] as String : null,
+      url: map['url'] != null ? map['url'] as String : null,
+      image: map['urlToImage'] != null ? map['urlToImage'] as String : null,
+      // source: map['Source'] != null ? map['Source'] as String : null,
+      source: map['content'] != null ? map['content'] as String : null,
     );
   }
 
   static Map<String, dynamic> toJson(News news) {
     Map<String, dynamic> data = new Map<String, dynamic>();
-    data["Title"] = news.title;
-    data["Description"] = news.body;
-    data["Source"] = news.source;
-    data["PublishedOn"] = news.date;
-    data["Url"] = news.url;
-    data["Image"] = news.image;
+    data["title"] = news.title;
+    data["description"] = news.body;
+    data["content"] = news.source;
+    data["publishedAt"] = news.date;
+    data["url"] = news.url;
+    data["urlToImage"] = news.image;
     return data;
   }
 

@@ -41,7 +41,7 @@ class NewsDetailedPage extends StatelessWidget {
             ),
             const SizedBox(height: 12),
             Text(
-              news.body ?? "",
+              news.source ?? news.body ?? "",
               maxLines: 13,
               textAlign: TextAlign.justify,
               style: const TextStyle(
